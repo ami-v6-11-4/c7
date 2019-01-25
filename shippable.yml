@@ -29,7 +29,6 @@ build:
     - kubectl version --client #1.12.2
     - ansible --version #2.7.1
     - terraform --version #0.11.10
-    - apt search azure-cli
     - az --version #2.0.50
     - docker --version
     - docker pull shippabledocker/sample_node_pvt:ecr
